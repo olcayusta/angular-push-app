@@ -8,7 +8,7 @@ import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSnackBar, MatSnackBarModule} from '@angular/material';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
-import {PushNotificationService} from './push-notification.service';
+import {PushNotificationService} from './services/push-notification.service';
 import {delay, retryWhen, tap} from 'rxjs/operators';
 
 @NgModule({
